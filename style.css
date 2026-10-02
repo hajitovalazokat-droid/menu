@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+nav img{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    background-color: rgb(235, 234, 234);
+    border: 1px solid black;
+}
+h1{
+    font-size: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 10px; 
+}
+li a{
+   
+    color: rgb(7, 1, 1);
+    font-size: 10px;
+}
+.menu{
+    border-bottom: 2px solid rgb(223, 86, 6);
+}
+.buyurtma{
+border: none;
+color: white;
+background-color: brown;
+border-radius: 5px;
+padding: 10px 35px;
+}
+.savat{
+    position: absolute;
+    top: 26px;
+    left: 680px;
+    width: 20px;
+    height: 20px;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.showcase{
+   color: rgb(128, 255, 0);
+    background-image: url(./cozy-coffee-shop-interior-with-sunlit-wooden-table-freshly-brewed-cappuccino-relaxing-atmosphere_35681-36834.avif);
+    height: 300px;
+    width: 100%;
+    padding: 30px;
+}
+main div{
+   border: 2px solid blue;
+}
+section h1{
+    display: flex;
+    justify-content: center;
+}
+section{
+    font-size: 10px;
+}
+footer{
+    border: 3px solid red;
+}
